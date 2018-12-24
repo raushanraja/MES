@@ -8,12 +8,21 @@ Installing Or Using gitkraken
             Error: libgnome-keyring.so.0: cannot open shared object file: No such file or directory....
             ........
 
-4. Solution: 
+4. Solution:
+    
+    A. Manjaro 
 
             sudo pacman -Sy 
             sudo pacman -S gnome-keyring
-            sudo pacman -Ss libgnome-keyring
+            sudo pacman -S libgnome-keyring
             sudo pacman -S python2-gnomekeyring
+
+    B. Ubuntu     
+
+            sudo apt update
+            sudo apt install gnome-keyring
+            sudo apt install libgnome-keyring0
+
 
 5. Again open gitkraken executable to run the Application (works fine for me).
 
