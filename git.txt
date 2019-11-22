@@ -38,3 +38,11 @@
 7.Pushing local commits to remote
 
     git push origin master
+
+
+# Merge
+
+1.git checkout merge
+2.git pull origin merge
+3.git checkout raushan-material
+4.git merge merge
