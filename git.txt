@@ -46,3 +46,18 @@
 2.git pull origin merge
 3.git checkout raushan-material
 4.git merge merge
+
+
+
+
+
+# Empty Branch
+git checkout --orphan <branchname>
+
+This will create a new branch with no parents. Then, you can clear the working directory with:
+
+git rm --cached -r .
+
+and add the documentation files, commit them and push them up to github.
+
+A pull or fetch will always update the local information about all the remote branches. If you only want to pull/fetch the information for a single remote branch, you need to specify it.
