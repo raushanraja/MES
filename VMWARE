@@ -1,0 +1,2 @@
+1. sudo modprobe -a vmw_vmci vmmon
+2. sudo systemctl start vmware-networks.service
