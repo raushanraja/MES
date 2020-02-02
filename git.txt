@@ -61,3 +61,7 @@ git rm --cached -r .
 and add the documentation files, commit them and push them up to github.
 
 A pull or fetch will always update the local information about all the remote branches. If you only want to pull/fetch the information for a single remote branch, you need to specify it.
+
+
+remove all the untracked files:
+    ```bash git clean -fdx```
