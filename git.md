@@ -64,4 +64,4 @@ A pull or fetch will always update the local information about all the remote br
 
 
 remove all the untracked files:
-    ```bash git clean -fdx```
+    ```git clean -fdx```
