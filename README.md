@@ -10,3 +10,8 @@ This repository contains thecollection of errors and the solution for errors tha
       uint8_t c0[] = { 0x82 };
       tft.pushCommand(0xC0, d, sizeof(c0));
 ```
+
+## Python PM2 Error
++ pm2 to run python script
++ https://pm2.keymetrics.io/docs/usage/quick-start/
++ https://stackoverflow.com/questions/49109069/running-a-python-script-with-pm2-error
