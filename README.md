@@ -15,3 +15,7 @@ This repository contains thecollection of errors and the solution for errors tha
 + pm2 to run python script
 + https://pm2.keymetrics.io/docs/usage/quick-start/
 + https://stackoverflow.com/questions/49109069/running-a-python-script-with-pm2-error
+
+
+# Archive
++ zip copy dir with exclude dir `zip -r myarchive.zip dir1 -x "dir1/ignoreDir1/*" "dir1/ignoreDir2/*"`
