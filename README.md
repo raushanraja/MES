@@ -19,3 +19,10 @@ This repository contains thecollection of errors and the solution for errors tha
 
 # Archive
 + zip copy dir with exclude dir `zip -r myarchive.zip dir1 -x "dir1/ignoreDir1/*" "dir1/ignoreDir2/*"`
+
+
+# Python build
++ Download souce, unzip and go to directory
++ ./configure --enable-optimizations --prefix=$HOME/python3.10
++ make
++ make install
